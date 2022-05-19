@@ -51,7 +51,7 @@ body{
   
   .h2a {
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
     display: inline-block;
@@ -75,7 +75,7 @@ body{
     padding: 6px;
   }
   th, td {
-    font-size: 18px;
+    font-size: 15px;
     background-color: #96D4D4;
     border-radius: 5px;
   }
@@ -84,6 +84,12 @@ body{
     width: 66px;
     border-radius: 5px;
   }
+
+  .input-lectura{
+    width:85px;
+    border-radius: 5px;
+  }
+
 
 
   .input-tabla:focus{
