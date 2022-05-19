@@ -47,6 +47,11 @@ h2 {
   width: 35px;
 }
 
+.logo-cuerpo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* STRUCTURE */
 
@@ -377,7 +382,7 @@ input[type="text"]:placeholder {
   display: inline-block;
   margin: 40px 8px 10px 8px;
   color: #010101;
-  border-bottom: 2px solid #5fbae9;
+  
 }
 
 .formContentPortal {
