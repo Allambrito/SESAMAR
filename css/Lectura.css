@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+
+
+
+html {
+
+    background-color: #176dc38d;
+
+}
+
+body{
+    margin: 10px;
+    height: 100vh;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+  }
+
+
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  
+  .h2a {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 40px 8px 10px 8px;
+    text-decoration: underline teal;
+    
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .ante-cuerpo {
+    display: column;
+    padding: 10px;
+  }
+
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 6px;
+  }
+  th, td {
+    font-size: 18px;
+    background-color: #96D4D4;
+    border-radius: 5px;
+  }
+
+  .input-tabla{
+    width: 66px;
+    border-radius: 5px;
+
+  }
+
+
+
+  .tabla-centrado{
+    display: flex;
+    justify-content: center;
+  }
+
+  .icono-salir{
+    width: 35px;
+    height: 25px;
+  }

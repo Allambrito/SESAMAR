@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="imgs/new_logo_sesamar.png" />
+  <link rel="stylesheet" href="css/SES.LogIn.css" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LogIn</title>
+</head>
+
+<body>
+
+  
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Nombre del usuario -->
+      <h2 class="active">Bienvenido(a) <span id="uname"></span> &#128522;</h2>
+
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="imgs/new_logo_sesamar.png" id="icon" alt="logo" />
+      </div>
+
+      <!-- Login Form -->
+      <form method="post" action="SES.Portal.html" id="formularioLogin"> 
+        <input type="text" id="SES.usuario" class="fadeIn second" name="Usuario" placeholder="Usuario" required minlength="5"/>
+        <input type="password" id="SES.pass" class="fadeIn third" name="password" placeholder="Contraseña" required minlength="5"/>
+        <div class="cajaOjoBtn">
+          <br>
+          <input type="submit" class="fadeIn fourth" id="submit" value="Entrar"/>     
+        </div>
+        <img src="imgs/ojo-abierto.jpg" class="botonOjo" id="btn_mostrar" />
+        </form>
+
+      <!-- Footer -->
+      <h2>Servicios sanitarios Marbella S.A</h2>
+      
+        <!-- ** PREVENT DEFAUILT-->
+  <!--       <script>
+          document.getElementById("formularioLogin").addEventListener("click", function(event){
+            event.preventDefault()
+          });
+        </script> -->
+
+      <!-- ** MOSTRAR/OCULTAR CONTRASEÑA-->
+      <script>
+        var btn_mostrar = document.getElementById("btn_mostrar");
+        var input = document.getElementById("SES.pass");
+        btn_mostrar.addEventListener("click", MostrarContra);
+        function MostrarContra() {
+          if (input.type == "password") {
+            input.type = "text";
+            btn_mostrar.src = "imgs/ojo-cerrado.jpg";
+          } else {
+            input.type = "password";
+            btn_mostrar.src = "imgs/ojo-abierto.jpg";
+          }
+        }
+
+        
+
+
+
+      </script>
+    </div>
+  </div>
+
+  
+</body>
+</html>

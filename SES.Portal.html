@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script>
+  
+    function DameLaFechaHora() {
+        var hora = new Date()
+        var hoy = new Date();
+        var m = new Array();
+        var d = new Array()
+        var an= hoy.getYear();
+        m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+        m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+        m[6]="Julio";    m[7]="Agosto";   m[8]="Septiembre";
+        m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+        document.write(hoy.getDate());
+        document.write(" de ");
+        document.write(m[hoy.getMonth()]);
+      }
+  
+  </script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/png" href="imgs/new_logo_sesamar.png">
+  <link rel="stylesheet" href="css/SES.portal.css" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Recolector</title>
+</head>
+
+<body>
+
+  <div class="wrapper fadeInDown">
+    <div class="formContentPortal fadeIn ">
+      <section class="encabezado">
+        <!--**CERRAR SESION Y FECHA-->
+        <a href="SES.LogIn.html"><img src="imgs/flecha-hacia-atras.png" class="icono-salir"></a>
+        <script>
+          DameLaFechaHora();
+        </script>
+      </section>
+      
+      <!--** NOMBRE DE RECOLECTOR-->
+      <h2 class="h2Portal" id="NombreRecolector">Hola! Raimundo Galaz &#128522;</h2>
+      <!-- ** LOGO SESAMAN-->
+      <div class="ante-cuerpo fadeIn">
+        <img src="imgs/new_logo_sesamar.png"alt="logo" width="150px" height="80px"/>
+        <h2 class="h2a">Por favor elige el sector para realizar lectura</h2>
+        <hr width="75%">
+        
+        
+
+      <!--** CUERPO CONTENIDO BOTONES SECTOR-->
+      <section class="cuerpo-contenido" id="contenido">
+        <div>
+          <a href="Lectura.html"><button type="button" class="btn btn-info">SECTOR A</button></a>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR B</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR C</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR D</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR E</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR F</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR G</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR H</button>
+        </div>
+
+        <div>
+          <button type="button" class="btn btn-info">SECTOR J</button>
+        </div>
+
+       
+
+
+        
+<hr width="75%">    
+      </section>
+        
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/
+javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
