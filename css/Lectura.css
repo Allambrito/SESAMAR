@@ -83,8 +83,16 @@ body{
   .input-tabla{
     width: 66px;
     border-radius: 5px;
+  }
+
+
+  .input-tabla:focus{
+    width: 66px;
+    border-radius: 5px;
+    background-color: yellow;
 
   }
+
 
   .tabla-centrado{
     display: flex;
