@@ -37,26 +37,29 @@
   <div class="wrapper">
     <div id="formContent">
       <section class="encabezado">
+        
         <!--**CERRAR SESION Y FECHA-->
       <a href="SES.Portal.html"><img src="imgs/flecha-hacia-atras.png" class="icono-salir"></a>
-        <script>
-          DameLaFechaHora();
-        </script>
+      <img src="imgs/new_logo_sesamar.png"alt="logo" width="100px" height="50px"/>
+        
       </section>
 
 
       <div class="logo-cuerpo">
-        <img src="imgs/new_logo_sesamar.png"alt="logo" width="140px" height="70px"/>
+       
         <!--** NOMBRE DE RECOLECTOR-->
         <h2 class="h2a" id="sector">SECTOR A</h2>
       </div>
       
       <!-- ** LOGO SESAMAN-->
       <div class="ante-cuerpo">
-        <h3>Tabla de lecturas</h2>
+        <h4>Tabla de lecturas</h4>
+          <script>
+            DameLaFechaHora();
+          </script>
         <hr width="75%"">
         
-        <table class="tabla-centrado">
+        <table class="tabla-centrado" id="tabla-lecturas">
           <tr>
             <th>N° casa</th>
             <th>Medidor</th> 
@@ -64,9 +67,9 @@
             <th>Guardar</th>
           </tr>
           <tr>
+            <td><input type="" class="input-tabla"></td>
             <td><input class="input-tabla"></td>
-            <td><input class="input-tabla"></td>
-            <td><input class="input-lectura"></td>
+            <td><input type="number" class="input-lectura"></td>
             <td><input type="checkbox"></td>
           </tr>
           <tr>
